@@ -1,0 +1,111 @@
+html {
+				background-color:orange;
+				position: relative;
+				
+		}
+		a {
+				font-color: blue;
+		}
+		body {
+				font: 100% Lucida Sans;
+				margin: 20px;
+				line-height: 26px;
+			}
+
+		.container {
+				min-width: 900px;
+				height: 1200px;
+				position: relative;
+		}
+		.wrapper {
+				top: 0;
+				overflow: auto;
+		}
+		#top, #sidebar, #bottom, .menuitem	{
+				border-radius: 4px;
+				margin: 4px;
+		}
+		#top {
+				background-color: green;
+				color: white;
+				padding: 15px;
+				height: 80px;
+								
+		}
+		#main h4 {
+			color: blue;
+			text-decoration: underline;
+		}
+		#main {
+				position: absolute;
+				margin-top: 0px;;
+				margin-left: 200px;
+				margin:right: 180px;
+				top: 70px;
+				left:70px;
+				padding-right:30%;
+		}
+		marquee {
+				position: relative;
+				scrolldelay: 30;
+				height: 450px;
+				
+		}
+		#sidebar {
+				background-color: green;
+				color: white;
+				padding: 10px;
+				width: 200px;
+				height: 600px;
+				top: 10px;
+				left: 82%;
+				position: absolute;
+				
+		}
+		#bottom {
+				background-color: #f1f1f1;
+				text-align: right;
+				position: absolute;
+				top: 100%;
+				height: 40px;
+				width: 100%;
+				
+				}
+		#menubar {
+				margin-left: 0px;
+				width: 180px;
+				margin-right:80%;
+		
+		}
+		.taskitem{
+			background-color: #f1f1f1;
+			border:1 px groovy #d4d4d4;
+			padding: 2px;
+			cursor: pointer;
+			position: absolute;
+			top: 25px;
+			left: 88%;
+			}
+		.taskitem1 {
+			background-color: #f1f1f1;
+			border:1 px groovy #d4d4d4;
+			padding: 2px;
+			cursor: pointer;
+			position: absolute;
+			top: 25px;
+			left: 94%;
+		}
+		
+		#top h1,#main h4,#top p, #menulist {
+				margin:0;
+				padding:0;
+		}
+		.menuitem {
+				background-color: #f1f1f1;
+				border:1 px solid #d4d4d4;
+				padding: 2px;
+				cursor: pointer;
+		}
+		a {
+				text-decoration: underline;
+		}

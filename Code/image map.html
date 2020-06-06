@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head><h1>Image Map</h1>
+<style>
+h1 {
+	color: orange;
+	text-align: center;
+	font-family: "Times New Roman";
+	animation-duration: 2s;
+	animation-name: slidein;
+     }
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	         }
+	to {
+		margin-left: 0%;
+		width: 100%;
+	     }
+}
+     
+</style>
+</head>
+<body>
+<p align="center">
+<img src="images.jpeg" align="middle" usemap="#worldmap" border="0">
+<map name="worldmap">
+<area shape="poly" coords="25,26,26,47,40,61,62,61,78,67,87,61,86,50,76,60,61,46,68,34" alt="Canada loading.." href="http://www.canada.ca/en/">
+<area shape="rect" coords="37,65,71,83"alt="USA loading.." href="USA.html">
+<area shape="rect" coords="44,83,74,100" alt="Mexico loading.." href="http://www.visitmexico.com/">
+<area shape="circle" coords="94,130,33" alt="south america loading.." href="http://www.lonelyplanet.com/south-america">
+<area shape="rect" coords="97,3,165,74" alt="europe loading.." href="http://europa.eu/index_en.htm">
+<area shape="circle" coords="149,107,31" alt="africa loading.." href="Africa.html">
+<area shape="rect" coords="173,5,298,94" alt="asia loading.." href="asia.html">
+<area shape="rect" coords="227,121,278,152" alt="australia loading.." href="australia.html">
+</map>
+</img>
+</p>
+</body>
+</html>
